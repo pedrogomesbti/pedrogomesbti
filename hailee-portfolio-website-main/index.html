@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favcons/faviconpedro.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/faviconpedro.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/faviconpedro.png">
+    <link rel="manifest" href="assets/favicons/faviconpedro.png">
+    <link rel="mask-icon" href="assets/favicons/faviconpedro.png" color="#5bbad5">
+    <link rel="shortcut icon" href="assets/favicons/faviconpedro.png">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="assets/favicons/faviconpedro.png">
+    <meta name="theme-color" content="#a789d4">
+
+    <!--=============== BOXICONS ===============-->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title> Pedro Gomes </title>
+</head>
+
+<body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Pedro Gomes</a>
+
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item ">
+                        <a href="#home" class="nav__link">
+                            <i class='bx bx-home'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item ">
+                        <a href="#about" class="nav__link">
+                            <i class='bx bx-user'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class='bx bx-book'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#work" class="nav__link">
+                            <i class='bx bx-briefcase-alt-2'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class='bx bx-message-square-dots'></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!--=============== theme change button ===============-->
+            <i class='bx bx-moon change-theme change-theme-button' id="theme-button"></i>
+
+        </nav>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+        <!--=============== HOME ===============-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <span class="home__greeting">Olá, eu sou</span>
+                    <h1 class="home__name">Pedro Gomes</h1>
+                    <h3 class="home__education">Frontend Developer</h3>
+
+                    <div class="home__button">
+                        <a download="" href="assets/pdf/Pedro Gomes TI.pdf" class="button button--ghost">
+                            Download CV
+                        </a>
+
+                        <a href="#about" class="button">Sobre</a>
+                    </div>
+                </div>
+
+               <div class="profile-pic">
+  <img src="assets/img/perfil.jpg" alt="Foto de perfil">
+</div>
+
+
+                <div class="home__social">
+                    <a href="#" target="_blank" class="home__social-link">
+                        <i class='bx bxl-linkedin'></i>
+                    </a>
+                    <a href="#" target="_blank" class="home__social-link">
+                        <i class='bx bxl-github'></i>
+                    </a>
+                    <a href="#" target="_blank" class="home__social-link">
+                        <i class='bx bxl-dribbble'></i>
+                    </a>
+                </div>
+
+                <a href="#about" class="home__scroll">
+                    <i class='bx bx-mouse home__scroll-icon'></i>
+                    <span class="home__scroll-name">Scroll Down</span>
+                </a>
+            </div>
+        </section>
+
+        <!--=============== ABOUT ===============-->
+        <section class="about section" id="about">
+            <span class="section__subtitle">My Intro</span>
+            <h2 class="section__title">Sobre Mim</h2>
+
+            <div class="about__container container grid">
+                <img src="assets/img/about.jpg" alt="" class="about__img">
+
+                <div class="about__data">
+                    <div class="about__info">
+                        <div class="about__box">
+                            <i class='bx bx-award about__icon'></i>
+                            <h3 class="about__title">Experience</h3>
+                            <span class="about__subtitle">2 Years Working</span>
+                        </div>
+                        <div class="about__box">
+                            <i class='bx bx-briefcase-alt about__icon'></i>
+                            <h3 class="about__title">Completed</h3>
+                            <span class="about__subtitle">17+ Projects</span>
+                        </div>
+                        <div class="about__box">
+                            <i class='bx bx-support about__icon'></i>
+                            <h3 class="about__title">Support</h3>
+                            <span class="about__subtitle">Online 24/7</span>
+                        </div>
+                    </div>
+
+                    <p class="about__description">
+                        Sou Pedro Gomes, tenho 20 anos e curso Análise e Desenvolvimento de Sistemas. Atualmente, sou CEO da Invest Shop, empresa especializada na criação de sites e lojas virtuais para empresas que desejam expandir sua presença digital. Tenho paixão por tecnologia, inovação e empreendedorismo.
+                    </p>
+
+                    <a href="#contact" class="button about__button-contact">Contate-me</a>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== SKILLS ===============-->
+        <section class="skills section" id="skills">
+            <span class="section__subtitle">Minhas Habilidades</span>
+            <h2 class="section__title">Minha Experiência</h2>
+
+            <div class="skills__container container grid">
+                <div class="skills__content">
+                    <h3 class="skills__title">Frontend Development</h3>
+
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">HTML</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">CSS/SCSS</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Javascript</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Responsive Design</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Git</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">VueJs3</h3>
+                                    <span class="skills__level">Basic</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills__content">
+                    <h3 class="skills__title">E-Commerce Tools</h3>
+
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">WordPress</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">WooCommerce</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Payment Gateways</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Email Marketing</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Social Media Ads</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Help Desk Software</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <!--=============== SERVICES ===============-->
+        <section class="services section">
+            <span class="section__subtitle">Meus Serviços</span>
+            <h2 class="section__title">O que eu ofereço</h2>
+
+            <div class="services__container container grid">
+                <div class="services__card">
+                    <div class="serv">
+                        <h3 class="services__title">Criação de <br> Lojas Virtuais</h3>
+
+                        <span class="services__button">
+                            Ver Mais <i class='bx bx-right-arrow services__icon'></i>
+                        </span>
+                    </div>
+
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+
+                            <h3 class="services__modal-title">Criação de Lojas Virtuais</h3>
+
+                            <p class="services__modal-description">
+                               Eu crio lojas virtuais personalizadas que facilitam a venda dos seus produtos pela internet. Com uma plataforma intuitiva e segura, ajudamos seu negócio a alcançar mais clientes, aumentar as vendas e expandir sua presença online de forma profissional e eficiente.
+                            </p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Eu projeto e construo lojas virtuais focadas em aumentar vendas e melhorar a experiência de compra.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Eu desenvolvo interfaces amigáveis para facilitar a navegação e a finalização da compra.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Design e implementação de páginas otimizadas para conversão e desempenho.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Eu crio funcionalidades interativas para engajar e fidelizar clientes.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Eu posiciono sua marca no mercado digital de forma forte e competitiva.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services__card">
+                    <h3 class="services__title">Criação <br>  de Sites</h3>
+
+                    <span class="services__button">
+                        Ver Mais <i class='bx bx-right-arrow services__icon'></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+
+                            <h3 class="services__modal-title">Criação de Sites</h3>
+
+                            <p class="services__modal-description">
+                                Eu projeto e desenvolvo sites personalizados que comunicam a identidade da sua marca com clareza e impacto.
+                            </p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Eu desenvolvo interfaces responsivas e acessíveis para diferentes dispositivos.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Design e desenvolvimento de páginas otimizadas para velocidade e usabilidade.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Eu crio interações intuitivas que facilitam a navegação do usuário.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Eu posiciono sua marca online de forma profissional e consistente.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Crio experiências digitais modernas que ajudam sua empresa a crescer.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services__card">
+                    <h3 class="services__title">Gestão de <br> Presença Online </h3>
+
+                    <span class="services__button">
+                        Ver Mais <i class='bx bx-right-arrow services__icon'></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+
+                            <h3 class="services__modal-title">Gestão de Presença Online</h3>
+
+                            <p class="services__modal-description">
+                                Construa autoridade e confiança com sua marca.
+Através de estratégias digitais, otimização de conteúdo e presença nas redes, ajudamos você a fortalecer sua marca e atrair mais clientes.
+                            </p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Otimização para mecanismos de busca (SEO).
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Criação e gerenciamento de perfis em redes sociais.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Manutenção e atualizações do site.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Análise de desempenho com Google Analytics.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Reputação digital e autoridade de marca.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== WORK ===============-->
+        <section class="work section" id="work">
+            <span class="section__subtitle">Meu Portfolio</span>
+            <h2 class="section__title">Modelos de Trabalho</h2>
+
+            <div class="work__filters">
+                <span class="work__item active-work" data-filter='all'>Todos</span>
+                <span class=" work__item" data-filter='.web'>Loja Virtual</span>
+                <span class=" work__item" data-filter='.movil'>Site</span>
+                <span class=" work__item" data-filter='.design'>Design</span>
+            </div>
+
+            <div class="work__container container grid">
+                <div class="work__card mix web">
+                    <img src="assets/img/work1.png" alt="" class="work__img">
+
+                    <h3 class="work__title">Loja Virtual Tema Doce</h3>
+
+                  <a href="https://www.instagram.com/pedrogomesbti/" target="_blank" class="work__button">
+    Saiba Mais <i class='bx bx-right-arrow work__icon'></i>
+</a>
+                </div>
+
+                <div class="work__card mix movil">
+                    <img src="assets/img/work2.png" alt="" class="work__img">
+
+                    <h3 class="work__title">Loja Virtual Tema Açai</h3>
+
+                    <a href="https://www.instagram.com/pedrogomesbti/" target="_blank" class="work__button">
+    Saiba Mais <i class='bx bx-right-arrow work__icon'></i>
+</a>
+                </div>
+
+                <div class="work__card mix design">
+                    <img src="assets/img/work3.png" alt="" class="work__img">
+
+                    <h3 class="work__title">Site de vendas Eletronico</h3>
+
+                    <a href="https://www.instagram.com/pedrogomesbti/" target="_blank" class="work__button">
+    Saiba Mais <i class='bx bx-right-arrow work__icon'></i>
+</a>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== TESTIMONIALS ===============-->
+        <section class="testimonial section">
+            <span class="section__subtitle">Meus clientes dizem</span>
+            <h2 class="section__title">Testemunhos</h2>
+
+            <div class="testimonial__container container swiper">
+                <div class="swiper-wrapper">
+                    <div class="testimonial__card swiper-slide">
+                        <img src="assets/img/testimonial1.png" alt="" class="testimonial__img">
+
+                        <h3 class="testimonial__name">Nativa Açaí</h3>
+                        <p class="testimonial__description">
+                            Quando decidimos levar o nosso açaí para o mundo digital, não tínhamos ideia de como começar. Foi aí que entrou o trabalho do Pedro: deixou tudo simples, bonito e profissional. Nossa loja virtual ficou prática e atraente, e hoje conseguimos vender muito mais. A galera adora a experiência, e a gente indica de olhos fechados!
+                        </p>
+                    </div>
+
+                    <div class="testimonial__card swiper-slide">
+                        <img src="assets/img/testimonial2.png" alt="" class="testimonial__img">
+
+                        <h3 class="testimonial__name">InovaTech Brasil</h3>
+                        <p class="testimonial__description">
+                            Quando a gente pensava em vender tecnologia online, parecia complicado demais… mas o trabalho do Pedro Gomes transformou tudo em algo prático e profissional. Nosso site ficou moderno, rápido e confiável — exatamente como quem compra tecnologia espera encontrar. Hoje conseguimos alcançar muito mais clientes e passamos uma imagem séria no mercado. Sem dúvida, recomendamos pra qualquer empresa que queira crescer no digital!
+                        </p>
+                    </div>
+
+                    <div class="testimonial__card swiper-slide">
+                        <img src="assets/img/testimonial3.png" alt="" class="testimonial__img">
+
+                        <h3 class="testimonial__name">Delícias da Esquina</h3>
+                        <p class="testimonial__description">
+                            Se antes os doces só encantavam na vitrine, agora encantam também na internet! Graças ao trabalho feito na nossa loja virtual, conseguimos mostrar nossas delícias de um jeito moderno e fácil de comprar. Atendimento top, resultado incrível e, claro, já estamos indicando pra todo mundo que quer dar um up no negócio.
+                        </p>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </section>
+
+        <!--=============== CONTACT ===============-->
+        <section class="contact section" id="contact">
+            <sapn class="section__subtitle">Entre em contato</sapn>
+            <h3 class="section__title">Entre em contato comigo</h3>
+
+            <div class="contact__container container grid">
+                <div class="contact__content">
+                    <h3 class="contact__title contact__title-info">Fale comigo
+</h3>
+
+                    <div class="contact__info">
+                        <div class="contact__card">
+                            <i class='bx bx-mail-send contact__card-icon'></i>
+                            <h3 class="contact__card-title">Email</h3>
+                            <span class="contact__card-data">investshopti@gmail.com</span>
+
+                            <a href="mailto:investshopti@gmail.com" target="_blank" class="contact__button">
+                                Contate-me <i class='bx bx-right-arrow contact__button-icon'></i>
+                            </a>
+                        </div>
+
+                        <div class="contact__card">
+                            <i class='bx bxl-whatsapp contact__card-icon'></i>
+                            <h3 class="contact__card-title">Whatsapp</h3>
+                            <span class="contact__card-data">(21) 96417-8693</span>
+
+                            <a href="https://api.whatsapp.com/send?phone=5521964178693&text=Hey there!" target="_blank"
+                                class="contact__button">
+                                Contate-me <i class='bx bx-right-arrow contact__button-icon'></i>
+                            </a>
+                        </div>
+
+                        <div class="contact__card">
+                            <i class='bx bxl-instagram contact__card-icon'></i>
+                            <h3 class="contact__card-title">Instagram</h3>
+                            <span class="contact__card-data">@pedrogomesbti</span>
+
+                            <a href="https://instagram.com/pedrogomesbti" target="_blank" class="contact__button">
+                                Contate-me <i class='bx bx-right-arrow contact__button-icon'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact__content">
+  <h3 class="contact__title contact__title-form">Escreva-me sua mensagem</h3>
+
+  <form class="contact__form" onsubmit="sendEmail(event)">
+    <div class="contact__form-div">
+      <label for="nome" class="contact__form-tag">Nome</label>
+      <input type="text" id="nome" placeholder="Digite o nome" class="contact__form-input" required>
+    </div>
+
+    <div class="contact__form-div">
+      <label for="email" class="contact__form-tag">Email</label>
+      <input type="email" id="email" placeholder="Digite o Email" class="contact__form-input" required>
+    </div>
+
+    <div class="contact__form-div contact__form-area">
+      <label for="mensagem" class="contact__form-tag">Mensagem</label>
+      <textarea id="mensagem" cols="30" rows="10" placeholder="Escreva sua mensagem"
+        class="contact__form-input" required></textarea>
+    </div>
+
+    <button type="submit" class="button">Enviar Mensagem</button>
+  </form>
+</div>
+
+<script>
+  function sendEmail(event) {
+    event.preventDefault(); // não recarrega a página
+
+    let nome = document.getElementById("nome").value;
+    let email = document.getElementById("email").value;
+    let mensagem = document.getElementById("mensagem").value;
+
+    let subject = "Mensagem do Portfólio - " + nome;
+    let body = `Nome: ${nome}%0AEmail: ${email}%0AMensagem: ${mensagem}`;
+
+    window.location.href = `mailto:investshopti@gmail.com?subject=${encodeURIComponent(subject)}&body=${body}`;
+  }
+</script>
+
+
+                    </form>
+
+                </div>
+
+        </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+        <div class="footer__container container">
+            <h1 class="footer__title">Pedro Gomes</h1>
+
+            <ul class="footer__list">
+
+                <li class="footer__item">
+                    <a href="#" class="footer__link">Home</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#about" class="footer__link">Sobre</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#skills" class="footer__link">Experiência</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#work" class="footer__link">Trabalhos</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#contact" class="footer__link">Contato</a>
+                </li>
+            </ul>
+
+            <ul class="footer__social">
+                <li class="footer__social-item">
+                    <a href="#" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-whatsapp footer__social-icon'></i>
+                    </a>
+                </li>
+                <li class="footer__social-item">
+                    <a href="#" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-twitter footer__social-icon'></i>
+                    </a>
+                </li>
+                <li class="footer__social-item">
+                    <a href="#" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-linkedin footer__social-icon'></i>
+                    </a>
+                </li>
+                <li class="footer__social-item">
+                    <a href="#" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-instagram footer__social-icon'></i>
+                    </a>
+                </li>
+            </ul>
+
+            <span class="footer__copy">
+                &#169; 2025 Pedro Gomes. All rights reserved.
+            </span>
+        </div>
+    </footer>
+
+    <!--=============== SCROLLREVEAL ===============-->
+
+    <!-- <script src="assets/js/scrollreveal.min.js"></script> -->
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MIXITUP FILTER ===============-->
+    <script src="assets/js/mixitup.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
